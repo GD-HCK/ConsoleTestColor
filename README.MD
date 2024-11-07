@@ -7,7 +7,7 @@ This is a simple PowerShell function that you can use with GitHub Actions to pri
 To use this function just call it from your powershell console like so
 
 ```powershell
-Write-Log "This is a simple message" -Color Magenta
+Write-GitHubOutput "This is a simple message" -Color Magenta
 
 # Output
 # This is a simple message
@@ -16,8 +16,8 @@ Write-Log "This is a simple message" -Color Magenta
 You can also concatenate multiple lines by doing so
 
 ```powershell
-Write-Log "This is a simple " -Color Magenta -NoNewLine;
-Write-Log "message"
+Write-GitHubOutput "This is a simple " -Color Magenta -NoNewLine;
+Write-GitHubOutput "message"
 
 # Output
 # This is a simple message

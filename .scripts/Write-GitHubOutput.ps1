@@ -1,6 +1,6 @@
 $env:TERM = "xterm-256color"
 
-function Write-Log {
+function Write-GitHubOutput {
     param (
         [Parameter(Position = 0, Mandatory = $true)]
         [string]$Message,
@@ -33,13 +33,13 @@ function Write-Log {
     }
 }
 
-Write-Log "Hello, World!" -Color "Green"
-Write-Log "Hello, World!" -Color "Red"
-Write-Log "Hello, World!" -Color "Yellow"
-Write-Log "Hello, World!" -Color "Blue"
-Write-Log "Hello, World!" -Color "Magenta"
-Write-Log "Hello, World!" -Color "Cyan"
+Write-GitHubOutput "Hello, World!" -Color "Green"
+Write-GitHubOutput "Hello, World!" -Color "Red"
+Write-GitHubOutput "Hello, World!" -Color "Yellow"
+Write-GitHubOutput "Hello, World!" -Color "Blue"
+Write-GitHubOutput "Hello, World!" -Color "Magenta"
+Write-GitHubOutput "Hello, World!" -Color "Cyan"
 
-Write-Log " "
+Write-GitHubOutput " "
 
-Write-Log "This is a simple " -Color "Green" -NoNewline; Write-Log "message" -Color Blue
+Write-GitHubOutput "This is a simple " -Color "Green" -NoNewline; Write-GitHubOutput "message" -Color Blue
