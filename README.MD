@@ -2,6 +2,10 @@
 
 This is a simple PowerShell function that you can use with GitHub Actions to print the output with colour.
 
+## Requirements
+
+PowerShell Core Edition
+
 ## Usage
 
 To use this function just call it from your powershell console like so

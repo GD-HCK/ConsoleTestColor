@@ -1,3 +1,5 @@
+#Requires -PSEdition Core
+
 $env:TERM = "xterm-256color"
 
 function Write-GitHubOutput {
