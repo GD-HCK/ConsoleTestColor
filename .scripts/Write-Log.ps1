@@ -39,3 +39,7 @@ Write-Log "Hello, World!" -Color "Yellow"
 Write-Log "Hello, World!" -Color "Blue"
 Write-Log "Hello, World!" -Color "Magenta"
 Write-Log "Hello, World!" -Color "Cyan"
+
+Write-Log " "
+
+Write-Log "This is a simple " -Color "Green" -NoNewline; Write-Log "message" -Color Blue
