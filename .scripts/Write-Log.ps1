@@ -33,7 +33,6 @@ function Write-Log {
     }
 }
 
-Write-Log "Hello, World!" -NoNewline
 Write-Log "Hello, World!" -Color "Green"
 Write-Log "Hello, World!" -Color "Red"
 Write-Log "Hello, World!" -Color "Yellow"
