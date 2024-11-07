@@ -1,4 +1,4 @@
-# Function to output with color
+# Function to output with colour
 
 This is a simple PowerShell function that you can use with GitHub Actions to print the output with colour.
 
